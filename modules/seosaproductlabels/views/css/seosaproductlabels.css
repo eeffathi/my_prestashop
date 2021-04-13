@@ -1,0 +1,100 @@
+
+.seosa_product_label {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    /*display: none;*/
+    display: flex;
+    z-index: 10;
+}
+
+.seosa_product_label:hover {
+    z-index: 11;
+}
+
+@media (max-width: 1199px) {
+    .seosa_product_label {
+        /*max-width: 33%;*/
+        /*height: auto !important;*/
+    }
+}
+
+.seosa_product_label a, .seosa_product_label img {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    background: transparent!important;
+    box-shadow: none;
+    margin-left: 0 !important;
+    height: auto !important;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .seosa_product_label a, .seosa_product_label img {
+        /*max-height: 75%;*/
+        /*height: 100% !important;*/
+        /*width: auto !important;*/
+        height: 60% !important;
+        width: auto !important;
+    }
+}
+
+
+.product_list .product-container .left-block a.product_img_link {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.seosa_product_label.top-left, .seosa_product_label.top-center, .seosa_product_label.top-right {
+    top: 0;
+}
+
+.seosa_product_label.center-left, .seosa_product_label.center-center, .seosa_product_label.center-right {
+    top: 50%;
+    margin-top: -40px;
+}
+
+.seosa_product_label.bottom-left, .seosa_product_label.bottom-center, .seosa_product_label.bottom-right {
+    bottom: 0;
+    margin-top: -40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.seosa_product_label.bottom-left a, .seosa_product_label.bottom-center a, .seosa_product_label.bottom-right a {
+    display: flex;
+    align-items: flex-end;
+}
+
+.seosa_product_label.top-left, .seosa_product_label.center-left, .seosa_product_label.bottom-left {
+    left: 0;
+    text-align: left;
+}
+
+.seosa_product_label.top-center, .seosa_product_label.center-center, .seosa_product_label.bottom-center {
+    left: 50%;
+    margin-left: -40px;
+}
+
+.seosa_product_label.top-right, .seosa_product_label.center-right, .seosa_product_label.bottom-right {
+    right: 0;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.seosa_product_label.top-right .seosa_label_hint, .seosa_product_label.center-right .seosa_label_hint, .seosa_product_label.bottom-right .seosa_label_hint {
+    text-align: left;
+}
+
+.sidebar .seosa_product_label {
+    display: none !important;
+}
+
+.seosa_label_hint p {
+    margin-bottom: 0;
+    color: inherit;
+}

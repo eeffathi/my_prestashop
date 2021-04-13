@@ -1,0 +1,48 @@
+input[type="text"], input[type="password"], input[type="file"], textarea {
+  width: 100%;
+  max-width: 300px; }
+
+.select2-container {
+  max-width: 701px; }
+
+.lang_1 {
+  width: 100%;
+  max-width: 312px; }
+
+.lang_2 {
+  width: 100%;
+  max-width: 312px; }
+
+.irs {
+  max-width: 312px; }
+
+/*BUTTON*/
+.btn {
+  cursor: pointer;
+  background: #e3e3e3 url("../img/bg-button-degrade.png") repeat-x scroll left top;
+  background: -moz-linear-gradient(center top, #f9f9f9, #e3e3e3) repeat scroll 0 0 transparent;
+  background: -webkit-gradient(linear, center top, center bottom, from(#f9f9f9), to(#e3e3e3)) repeat scroll 0 0 transparent;
+  border-color: #CCCCCC #BBBBBB #A0A0A0;
+  border-left: 1px solid #BBBBBB;
+  border-radius: 3px 3px 3px 3px;
+  border-right: 1px solid #BBBBBB;
+  border-style: solid;
+  border-width: 1px;
+  color: #000000;
+  margin: 0;
+  outline: medium none;
+  padding: 3px 8px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+.btn:hover {
+  border: 1px solid #939393; }
+
+.btn-group-radio label {
+  line-height: 3em; }
+
+.btn-group-radio label input[type=radio]:checked + span {
+  background: #00aff0; }
+
+/*@ sourceMappingURL=admin15.css.map */

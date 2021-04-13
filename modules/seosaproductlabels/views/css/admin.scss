@@ -1,0 +1,387 @@
+
+
+:focus {
+  outline: none !important;
+}
+
+.float-none {
+  float: none !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.margin-right {
+  margin-right: 7px !important;
+}
+
+.margin-right-lg {
+  margin-right: 14px !important;
+}
+
+.display-inline-block {
+  display: inline-block !important;
+}
+
+
+.font-weight-bold {
+  font-weight: bold !important;
+}
+
+
+#seosaproductlabels_form {
+
+  .js-child-category {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  .control-label {
+    padding-bottom: 6px;
+  }
+
+  label.control-label span.label-tooltip {
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+  }
+
+  .position_block .table tbody>tr>td {
+    border: none;
+    padding: 3px;
+  }
+
+  .position_block .table tbody>tr:hover>td {
+    background-color: transparent;
+  }
+
+  .position_block label {
+    margin-bottom: 0;
+  }
+
+  .name_block + input {
+    max-width: 190px;
+  }
+
+  .text_css_block + input {
+    max-width: 390px;
+  }
+
+  .text_block {
+
+    + input {
+      max-width: 390px;
+    }
+
+    + div {
+      margin-bottom: 0;
+
+      .col-lg-9 {
+        max-width: 400px;
+      }
+    }
+  }
+
+  .url_block {
+
+    + input {
+      max-width: 390px;
+    }
+
+    + div {
+      .col-lg-9 {
+        max-width: 400px;
+      }
+    }
+  }
+
+  .hint_block {
+    + .mce-panel {
+      max-width: 660px;
+    }
+
+    ~ div {
+      .col-lg-9 {
+        width: calc(100% - 60px);
+        max-width: 670px;
+      }
+      .col-lg-2 {
+        width: 60px;
+      }
+    }
+  }
+
+  
+
+  .hint_text_color_block {
+    + div {
+      .col-lg-2 {
+        width: 190px;
+      }
+    }
+  }
+
+  .hint_background_block {
+    + div {
+      .col-lg-2 {
+        width: 190px;
+      }
+    }
+  }
+
+  .hint_opacity_block + span {
+    max-width: 390px;
+  }
+
+  .groupbox_block + div {
+    .col-lg-6 {
+      max-width: 400px;
+    }
+  }
+
+  .cart_rules_block + div {
+    .col-lg-9 {
+      width: 670px;
+    }
+  }
+
+
+  .form-wrapper {
+    max-width: 990px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+
+    &:before{
+      content: " ";
+      display: table;
+    }
+
+    &:after {
+      content: " ";
+      display: table;
+      clear: both;
+    }
+  }
+
+
+  label.control-label.col-lg-3 {
+    max-width: 420px;
+  }
+
+  .select2-container {
+    max-width: 660px;
+  }
+
+  .mce-panel {
+    border: none;
+  }
+
+  .mce-tinymce>.mce-container-body {
+    border: 1px solid #c7d6db;
+  }
+
+  .index_image_css_block + input {
+    max-width: 390px;
+  }
+
+  .product_image_css_block + input {
+    max-width: 390px;
+  }
+
+  .category_image_css_block + input {
+    max-width: 390px;
+  }
+
+  .file_style_block {
+    .translatable-field .col-lg-9 {
+      max-width: 200px;
+    }
+    .img-thumbnail-block {
+      max-width: 200px;
+    }
+  }
+
+  .input-group-addon {
+    cursor: pointer;
+  }
+}
+
+.position
+{
+  float: left!important;
+  width: auto!important;
+  max-width: auto!important;
+
+  & label
+  {
+    & span
+    {
+      display: block;
+      line-height: 35px;
+      width: 35px;
+      height: 35px;
+    }
+
+    & input
+    {
+      display: none;
+
+      &:checked + span
+      {
+        color: #fff;
+        background-color: #2eacce;
+        border-color: #008abd;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.product_labels_doc, #seosa_manager_btn {
+  font-size: 13px;
+  font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1.42857;
+  cursor: pointer;
+  color: #4f4d49 !important;
+  margin-right: 2px;
+}
+
+.product_labels_doc:active, #seosa_manager_btn:active, .product_labels_doc:focus,
+#seosa_manager_btn a:focus {
+  text-decoration: none;
+  color: #666; }
+
+.product_labels_doc:hover, #seosa_manager_btn:hover  {
+  text-decoration: none;
+  color: #0077a4 !important;  }
+#seosaproductlabels_form table label {
+  width: auto;
+}
+.position label span {
+  display: block;
+  line-height: 35px;
+  width: 35px !important;
+  height: 35px;
+  -webkit-box-shadow: #e6e6e6 0 -2px 0 inset;
+  box-shadow: #e6e6e6 0 -2px 0 inset;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+label.file_style {
+  width: auto;
+}
+.select2-container--default .select2-search--inline .select2-search__field {
+  height: 25px;
+  margin: 2px;
+}
+.select2-container {
+  min-width: 130px;
+  width: 100% !important;
+}
+label {
+  text-shadow: none;
+}
+input#select_type_image, input#select_type_text {
+  display: none;
+}
+
+/* custom */
+
+.btn-group-radio input[type=radio]
+{
+  opacity: 0;
+  position: absolute;
+  display: none;
+}
+
+
+.btn-group-radio label:not(:first-child):not(:last-child) span
+{
+  border-radius: 0!important;
+}
+.btn-group-radio label:first-child span
+{
+  border-top-right-radius: 0!important;
+  border-bottom-right-radius: 0!important;
+}
+.btn-group-radio label:last-child span
+{
+  border-top-left-radius: 0!important;
+  /*border-bottom-left-radius: 0!important;*/
+}
+.btn-group-radio label input[type=radio]:checked + span
+{
+  color: #fff!important;
+  background-color: #00aff0!important;
+  border-color: #008abd!important;
+  -webkit-box-shadow: none!important;
+  box-shadow: none!important;
+}
+
+.switch.switch-mono-color input:last-of-type:checked ~ a {
+  border: solid 1px #279CBB;
+  background-color: #2eacce;
+}
+
+
+/* ColorPicker */
+
+.mColorPickerInput,
+.mColorPickerTrigger {
+  position: relative;
+  left: 5px;
+}
+
+/* other */
+
+.warning-date {
+  color: red;
+}
+
+.normal-date {
+  color: green;
+}
+
+.ui-datepicker {
+  z-index: 700 !important;
+}
+
+//btn-outline-secondary
+
+.btn-outline-secondary {
+  color: #6c868e !important;
+  background-color: transparent;
+  background-image: none !important;
+  border-color: #6c868e !important;
+}
+
+.btn-outline-secondary.focus,.btn-outline-secondary:focus {
+  box-shadow: none
+}
+
+.btn-outline-secondary.disabled,.btn-outline-secondary:disabled {
+  color: #bbcdd2;
+  background-color: transparent;
+  border-color: #bbcdd2
+}
+
+.btn-outline-secondary:not([disabled]):not(.disabled).hover, .btn-outline-secondary:not([disabled]):not(.disabled):hover {
+  color: #25b9d7 !important;
+  background-color: #fff !important;
+  border-color: #25b9d7 !important;
+}
+

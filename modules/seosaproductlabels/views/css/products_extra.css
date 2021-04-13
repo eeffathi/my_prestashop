@@ -1,0 +1,55 @@
+
+
+.fixed-width-xs {
+    width: 48px !important
+}
+
+.fixed-width-sm {
+    width: 80px !important
+}
+
+.fixed-width-md {
+    width: 120px !important
+}
+
+.fixed-width-lg {
+    width: 160px !important
+}
+
+.fixed-width-xl {
+    width: 200px !important
+}
+
+.fixed-width-xxl {
+    width: 250px !important
+}
+
+.margin-right {
+    margin-right: 10px !important;
+}
+
+.float-left {
+    float: left !important;
+}
+
+#new_product_label_form {
+    max-width: 990px;
+}
+
+.module-seosaproductlabels .panel {
+    border: none;
+}
+
+.module-seosaproductlabels [class^="process-icon-"] {
+    display: none;
+}
+
+.module-seosaproductlabels .alert-info {
+    padding-left: 3.875rem;
+}
+
+.module-seosaproductlabels .new_product_label_form_select {
+    padding: 4px;
+    border-color: #a0d0eb;
+}
+

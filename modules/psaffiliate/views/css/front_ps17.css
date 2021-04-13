@@ -1,0 +1,108 @@
+/*
+ * NOTICE OF LICENSE
+ *
+ * This file is licenced under the Software License Agreement.
+ * With the purchase or the installation of the software in your application
+ * you accept the licence agreement.
+ *
+ * You must not modify, adapt or create derivative works of this source code.
+ *
+ * @author    Active Design <office@activedesign.ro>
+ * @copyright 2016-2018 Active Design
+ * @license   LICENSE.txt
+ */
+
+#myaffiliateaccount .nav-stacked .nav-item + .nav-item {
+    margin: 0;
+}
+
+#myaffiliateaccount .form-control, #my_affiliate_link {
+    height: 45px;
+}
+
+.label-my_affiliate_link {
+    line-height: 30px;
+}
+
+#myaffiliateaccount .btn .material-icons,
+#myaffiliateaccount .btn-sm .material-icons {
+    margin: 0;
+}
+
+#myaffiliateaccount-myvouchers table td {
+    line-height: 49px;
+}
+.affiliate_modal .form-group {
+    margin: 0 -5px 15px;
+}
+.affiliate_modal .form-group:after, .affiliate_modal .form-group:before {
+    content: " ";
+    clear: both;
+    display: table;
+}
+.affiliate_modal h1 {
+    font-size: 1.125rem;
+    padding: 1.375rem 1.25rem;
+    margin: -20px -20px 20px;
+    background: #f7f7f9;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.affiliate_modal .control-label {
+    margin-bottom: 0;
+    padding-top: 7px;
+    padding-left: 35px;
+    text-align: left;
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+}
+.affiliate_modal{
+    position: absolute;
+    background: #fff;
+    width: 500px;
+    padding: 20px;
+    z-index: 999999999;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.4);
+    right: 0px;
+    bottom: -10%;
+}
+#myaffiliateaccount-mlm > .card > .card-block {
+    position: relative;
+}
+.affiliate_modal input{
+    background-color: #f5f8f9;
+    background-image: none;
+    border: 1px solid #c7d6db;
+    border-radius: 3px;
+    color: #555;
+    display: block;
+    font-size: 12px;
+    height: 31px;
+    line-height: 1.42857;
+    padding: 6px 8px;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    width: 90%;
+    cursor: not-allowed;
+}
+.affiliate_modal .aff_details_close {
+    position: absolute;
+    padding: 3px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    right: 0;
+    top: 13px;
+}
+#myaffiliateaccount-mlm tr{
+    cursor: pointer;
+}
+#myaffiliateaccount .alert{
+    cursor: pointer;
+}
+@media (max-width:1024px){
+    .affiliate_modal{
+        width: 300px;
+    }
+}

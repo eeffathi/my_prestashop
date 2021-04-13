@@ -1,0 +1,31 @@
+.file_style {
+  position: relative;
+  display: inline-block;
+  line-height: 32px;
+  padding: 0 25px;
+  font-weight: normal;
+  background: #2eacce;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: 1px solid #C7D6DB;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer; }
+  .file_style .input_file_text .file_item {
+    display: inline-block;
+    line-height: 22px;
+    padding: 0 10px;
+    background: #8BC34A;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-transform: none; }
+    .file_style .input_file_text .file_item:last-child {
+      margin-right: 0; }
+  .file_style:hover {
+    background: #008bbd; }
+  .file_style input {
+    display: none !important; }
