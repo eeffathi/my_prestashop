@@ -1,6 +1,4 @@
 <?php
-
-echo 'hi';
 /**
  * 2007-2021 PrestaShop
  *
@@ -82,21 +80,34 @@ class Brandlist extends Module
         return parent::uninstall();
     }
 
+
+
     /**
      * Load the configuration form
      */
     public function getContent()
     {
+        $inputValue = Tools::getValue('BRNDS_COUNT');
+        $message = "";
+
+        $isInteger = $this->integerValidation($inputValue);
+
         /**
          * If values have been submitted in the form, process.
          */
         if (((bool)Tools::isSubmit('submitBrandlistModule')) == true) {
-            $this->postProcess();
+            if($isInteger) {
+                $this->postProcess($inputValue);
+                $message = $this->displayConfirmation("Position successfully added.");
+            }
+            else {
+                $message = $this->displayError('Value is not an integer');
+            }
         }
 
         $output = $this->context->smarty->fetch($this->local_path.'views/templates/admin/configure.tpl');
 
-        return $output.$this->renderForm();
+        return $message.$output.$this->renderForm();
     }
 
     /**
@@ -167,9 +178,9 @@ class Brandlist extends Module
     /**
      * Save form data.
      */
-    protected function postProcess()
+    protected function postProcess($inputValue)
     {
-        Configuration::updateValue('BRANDLIST_BRAND_COUNT', Tools::getValue('BRNDS_COUNT'));
+        Configuration::updateValue('BRANDLIST_BRAND_COUNT', $inputValue);
     }
 
     /**
@@ -197,6 +208,16 @@ class Brandlist extends Module
         /* Place your code here. */
     }
 
-    public function 
+    public function integerValidation($inputValue) {
+        if (ctype_digit($inputValue)) {
+            echo "The string $inputValue consists of all digits.\n";
+            return true;
+        } else {
+            echo "The string $inputValue does not consist of all digits.\n";
+            return false;
+        }
+            
+    }
+
 
 }

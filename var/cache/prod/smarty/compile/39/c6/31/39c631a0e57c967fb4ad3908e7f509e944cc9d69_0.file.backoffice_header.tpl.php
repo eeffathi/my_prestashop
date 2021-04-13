@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2021-04-12 21:52:56
+/* Smarty version 3.1.34-dev-7, created on 2021-04-12 23:59:53
   from '/var/www/html/prestashop/modules/creativeelements/views/templates/hook/backoffice_header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_6074f978609e09_71912954',
+  'unifunc' => 'content_607517394c5227_88228524',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6074f978609e09_71912954 (Smarty_Internal_Template $_smarty_tpl) {
+function content_607517394c5227_88228524 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <style>
 i.mi-ce {
