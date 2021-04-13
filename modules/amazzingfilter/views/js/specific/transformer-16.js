@@ -1,0 +1,19 @@
+/**
+*  2007-2020 PrestaShop
+*
+*  @author    Amazzing
+*  @copyright Amazzing
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*/
+if (typeof customThemeActions != 'undefined') {
+	customThemeActions = {
+		updateContentAfter: function(jsonData){
+			$(['stlazyloading', 'highdpiInit']).each(function(i, f) {
+				if (typeof window[f] == 'function') {
+					window[f]();
+				}
+			});
+		},
+	};
+}
+/* since 3.1.3 */

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>google_address</name>
+    <displayName><![CDATA[Remember to restrict the API key before using it in production]]></displayName>
+    <version><![CDATA[1.2.0]]></version>
+    <description><![CDATA[This module autocompletes google address and fills city and zipcode for your customers.]]></description>
+    <author><![CDATA[BSofts Inc]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall the module?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

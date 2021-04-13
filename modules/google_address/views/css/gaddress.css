@@ -1,0 +1,32 @@
+/**
+ * NOTICE OF LICENSE.
+ *
+ * This source file is subject to a commercial license from BSofts.
+ * Use, copy, modification or distribution of this source file without written
+ * license agreement from the BSofts is strictly forbidden.
+ *
+ *  @author    BSoft Inc
+ *  @copyright 2020 BSoft Inc.
+ *  @license   Commerical License
+ */
+#error-msg {
+  color: red;
+  font-size: 12px;
+  padding-left: 5px;
+  vertical-align: super;
+}
+#valid-msg {
+  color: #00c900;
+  font-size: 12px;
+  padding-left: 5px;
+  vertical-align: super;
+}
+input.error {
+  border: 1px solid #ff7c7c;
+}
+.hide {
+  display: none;
+}
+.iti {
+  display: block;
+}

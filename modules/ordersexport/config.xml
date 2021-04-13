@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ordersexport</name>
+    <displayName><![CDATA[Orders export]]></displayName>
+    <version><![CDATA[4.7.1]]></version>
+    <description><![CDATA[The Orders Export Module allows you to do a CSV or EXCEL export of your data from your orders function.]]></description>
+    <author><![CDATA[MyPrestaModules]]></author>
+    <tab><![CDATA[export]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
