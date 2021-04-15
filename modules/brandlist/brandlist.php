@@ -65,10 +65,17 @@ class Brandlist extends Module
 
         include(dirname(__FILE__).'/sql/install.php');
 
+        if (Shop::isFeatureActive()) {
+            Shop::setContext(Shop::CONTEXT_ALL);
+        }
+        
         return parent::install() &&
             $this->registerHook('header') &&
             $this->registerHook('backOfficeHeader') &&
-            $this->registerHook('displayHome');
+            $this->registerHook('displayHome') &&
+            $this->registerHook('leftColumn') &&
+            $this->registerHook('actionFrontControllerSetMedia')
+        ;
     }
 
     public function uninstall()
@@ -205,6 +212,7 @@ class Brandlist extends Module
 
     public function hookDisplayHome()
     {
+        
         /* Place your code here. */
     }
 

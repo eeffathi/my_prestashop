@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2021-04-13 04:00:53
+/* Smarty version 3.1.34-dev-7, created on 2021-04-15 14:20:17
   from '/var/www/html/prestashop/modules/seosaproductlabels/views/templates/hook/hint_script.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_60754fb5d97cc0_53718893',
+  'unifunc' => 'content_607883e1385fa8_13908744',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60754fb5d97cc0_53718893 (Smarty_Internal_Template $_smarty_tpl) {
+function content_607883e1385fa8_13908744 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['seosa_labels']->value, 'label');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['label']->value) {
