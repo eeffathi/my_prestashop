@@ -95,7 +95,7 @@ class Brandlist extends Module
     public function getContent()
     {
         $inputValue = Tools::getValue('BRNDS_COUNT');
-        $message = "";
+        $message = 0;
 
         $isInteger = $this->integerValidation($inputValue);
 
@@ -235,10 +235,10 @@ class Brandlist extends Module
 
     public function integerValidation($inputValue) {
         if (ctype_digit($inputValue)) {
-            echo "The string $inputValue consists of all digits.\n";
+            // echo "The string $inputValue consists of all digits.\n";
             return true;
         } else {
-            echo "The string $inputValue does not consist of all digits.\n";
+            // echo "The string $inputValue does not consist of all digits.\n";
             return false;
         }
             
