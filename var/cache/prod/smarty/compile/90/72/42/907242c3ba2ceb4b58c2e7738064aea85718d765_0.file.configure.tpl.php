@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2021-04-13 00:00:06
+/* Smarty version 3.1.34-dev-7, created on 2021-04-15 15:01:14
   from '/var/www/html/prestashop/modules/brandlist/views/templates/admin/configure.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_60751746a80d03_60289531',
+  'unifunc' => 'content_60788d7a3c3b34_66199187',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_60751746a80d03_60289531 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60788d7a3c3b34_66199187 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="panel">
 	<h3><i class="icon icon-credit-card"></i> <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Brands List','mod'=>'brandlist'),$_smarty_tpl ) );?>
